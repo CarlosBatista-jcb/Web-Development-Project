@@ -48,11 +48,11 @@
     					printf("Connect failed: %s\n", mysqli_connect_error());
     					exit();
 					}
-					mysqli_select_db($link,"test_db");
+					mysqli_select_db($link,"usertable");
 					$results=mysqli_query($link,"select * from usertable where Username='$username' and Password='$password'") or die("failed to connect".mysqli_connect_error());
 					$row=mysqli_fetch_array($results);
 					if ($row['Username'] == $username && $row['Password'] == $password) {
-						header("location: http://localhost/project/home.php");
+						header("location: http://localhost/Web-Development-Project/home.php");
 						$_SESSION['username'] = $username;
 						$_SESSION['mes'] = "true";
 					} 
