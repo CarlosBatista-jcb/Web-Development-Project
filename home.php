@@ -13,7 +13,7 @@
 <body>
 	<nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-dark">
 		<a class="navbar-brand" href="home.php">
-    	<img src="jagran_logo1.jpg" width="30" height="30" class="d-inline-block align-top" alt=""> College Sikhsha
+    	<img src="jagran_logo.jpg" width="30" height="30" class="d-inline-block align-top" alt=""> Colégio Baptista
   		</a>
   <!-- Links -->
   		<ul class="navbar-nav ml-auto">
@@ -21,31 +21,31 @@
       			<a class="nav-link" href="home.php">Home</a>
     		</li>
     		<li class="nav-item">
-      			<a class="nav-link" href="practice.php">About Us</a>
+      			<a class="nav-link" href="practice.php">Sobre</a>
     		</li>
     		<li class="nav-item">
-      			<a class="nav-link" href="login.php">Not <?php
+      			<a class="nav-link" href="login.php"> <?php
       			if(isset($_SESSION['username']))
       				{
       					echo $_SESSION['username'];
       				}
-      			?>? Logout</a>
+      			?>Logar</a>
     		</li>
   		</ul>
 	</nav>
 	<div class="background">
-		<i class="fa fa-quote-left"></i><p>Research shows that there is only half as much variation in student achievement between schools as there is among classrooms in the same school. If you want your child to get the best education possible, it is actually more important to get him assigned to a great teacher than to a great school.</p>
+		<i class="fa fa-quote-left"></i><p>A pesquisa mostra que há apenas metade da variação no desempenho dos alunos entre escolas do que entre salas de aula da mesma escola. Se você deseja que seu filho receba a melhor educação possível, na verdade é mais importante que ele seja designado para um ótimo professor do que para uma ótima escola.</p>
 	</div>
 	<div class="background">
-		<h2>College Predictor</h2><br>
+		<h2>Preditor de faculdade</h2><br>
 		<form method="post" action="home.php">
 			<div id="center">
-				<input class="ip" type="text" name="board" placeholder="Board's Percentage" required><br><br>
-				<input class="ip" type="text" name="jee" placeholder="JEE Score" required><br><br>
-				<input class="ip" type="text" name="bits" placeholder="BITS Score"><br><br>
-				<input class="ip" type="text" name="srm" placeholder="SRMJEEE Score"><br><br>
-				<input class="ip" type="text" name="vit" placeholder="VITEEE Score"><br><br>
-				<input class="button" type="submit" name="submit" value="SUBMIT">
+				<input class="ip" type="text" name="board" placeholder="Porcentagem do Conselho" required><br><br>
+				<input class="ip" type="text" name="jee" placeholder="Pontuação JEE" required><br><br>
+				<input class="ip" type="text" name="bits" placeholder="Pontuação BITS"><br><br>
+				<input class="ip" type="text" name="srm" placeholder="Pontuação SRMJEEE"><br><br>
+				<input class="ip" type="text" name="vit" placeholder="VITEEE Pontuação VITEEE"><br><br>
+				<input class="button" type="submit" name="submit" value="Enviar">
 			</div>
 		</form>
 	</div>

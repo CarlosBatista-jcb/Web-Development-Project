@@ -20,25 +20,25 @@
       			<a class="nav-link" href="Home.php">Home</a>
     		</li>
     		<li class="nav-item active">
-      			<a class="nav-link" href="pratice.php">About Us</a>
+      			<a class="nav-link" href="pratice.php">sobre</a>
     		</li>
     		<li class="nav-item">
-      			<a class="nav-link" href="login.php">Not <?php
+      			<a class="nav-link" href="login.php"><?php
       			if(isset($_SESSION['username']))
       				{
       					echo $_SESSION['username'];
       				}
-      			?>? Logout</a>
+      			?>logar</a>
     		</li>
   		</ul>
 	</nav>
 
 	<div class="background">
-		<i class="fa fa-quote-left"></i><p>Nothing in this world can take the place of persistence. Talent will not: nothing is more common than unsuccessful men with talent. Genius will not; unrewarded genius is almost a proverb. Education will not: the world is full of educated derelicts. Persistence and determination alone are omnipotent.</p>
+		<i class="fa fa-quote-left"></i><p>Nada neste mundo pode substituir a persistência.<br> <strong>O talento não:</strong> nada é mais comum do que homens talentosos e mal sucedidos. <br><strong>O gênio não o fará;</strong> o gênio não recompensado é quase um provérbio.<br><strong> A educação não:</strong> o mundo está cheio de indivíduos abandonados e educados. Persistência e determinação, privacidade, são onipotentes.</p>
 	</div>
 	<div class="background">
-		<h2>About Us</h2>
-		<p>CollegeShiksha.com is a one-stop-solution making course and college selection easy for students looking to pursue undergraduate (UG) and postgraduate (PG) courses in India and abroad; also accessible to users on the move through the website’s mobile site. Launched in 2008, CollegeShiksha.com belongs to Info Edge (India) Ltd, the owner of established brands like Naukri.com, 99acres.com, Jeevansathi.com, among several others. With this strong brand pedigree, CollegeShiksha offers its users the unique privilege of customised tools like Alumni Employment Statistics that includes salary data powered by Naukri.com.</p>
+		<h2>Sobre nos</h2>
+		<p>CollegeShiksha.com é uma solução completa que facilita a seleção de cursos e faculdades para estudantes que desejam cursar cursos de graduação (UG) e pós-graduação (PG) na Índia e no exterior; também acessível a usuários em trânsito por meio do site móvel do site. Lançado em 2008, CollegeShiksha.com pertence à Info Edge (India) Ltd, proprietária de marcas estabelecidas como Naukri.com, 99acres.com, Jeevansathi.com, entre várias outras. Com esse forte pedigree de marca, CollegeShiksha oferece a seus usuários o privilégio exclusivo de ferramentas personalizadas, como Alumni Employment Statistics, que inclui dados salariais fornecidos por Naukri.com.</p>
 
 		<p>Our website is a repository of reliable and authentic information for over 14,000 institutions, 40,000 plus courses and has a registered data base of more than 3.5 million students. We offer specific information for students interested in UG/PG courses in India (Collegeshiksha.com) and Abroad (studyabroad.Collegeshiksha.com) across the most popular educational streams – Management; Science & Engineering; Banking & Finance; Information Technology; Animation, VFX, Gaming & Comics; Hospitality, Aviation & Tourism; Media, Films & Mass Communication; Design; Medicine, Beauty & Health Care; Retail; Arts, Law, Languages & Teaching; and Test Preparation.</p>
 
